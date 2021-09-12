@@ -13,9 +13,9 @@ int main(){
 
     cout << "The sum of these two numbers is " << a + b << endl;
     cout << "The difference between these two numbers is " << a - b << endl;
-    cout << "The arithmetic mean of the absolute values of these two numbers is " << ( abs(a) + abs(b) ) / 2 << endl;
+    cout << "The arithmetic mean of the absolute values of these two numbers is " << (float) ( abs(a) + abs(b) ) / 2 << endl;
     cout << "The product of two numbers is " << a * b << endl;
-    cout << "The quotient of two numbers is " << a / b << endl;
+    cout << "The quotient of two numbers is " << (float) a / b << endl;
 
 
 
